@@ -50,3 +50,33 @@ body {
 .img-in{
     width: 100%;
 }
+@media screen and (min-width:   768px) {
+    .menu {
+        height: 120px;
+        background-color: cyan;
+        color: chartreuse;
+        font-size: 32px;
+    }
+    .img-in {
+        width: 50%;
+
+    }
+    .desc-solo{
+        display: grid;
+    }
+}
+
+@media screen and (min-width:   1280px) {
+    .menu {
+        height: 200px;
+        background-color: rgb(42, 18, 177);
+        color: chartreuse;
+        font-size: 64px;
+
+    }
+    
+}
+
+.img-in {
+    width: 25%;
+}
